@@ -1,0 +1,45 @@
+name: bus
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  get: ^4.6.6
+  google_fonts: ^6.2.1
+  intl: ^0.19.0
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_launcher_icons: "^0.14.1"
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/mybus.png"
+  adaptive_icon_background: "#ffffff"  # Background color for adaptive icon
+  adaptive_icon_foreground: "assets/icons/play_store_512.png"  # Foreground image for adaptive icon
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/mybus.png
+    - assets/images/error.gif
+    - assets/images/mybus.png
+    - assets/images/Mobile.png
+    - assets/images/Hotel.png
+    - assets/images/Ganapathys.png
+    - assets/images/goverment.png
+    - assets/images/newbus.png
+    - assets/images/sgking.png
+    - assets/images/bustop.png
+    - assets/images/welcome.png
